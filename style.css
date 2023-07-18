@@ -1,0 +1,72 @@
+body{
+    background-color: #030316;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nota-input{
+    background-color: #04041c;
+    color: #fff;
+    padding: 0.6rem;
+    border: 1px solid #07649e;
+    border-radius: 4px;
+}
+
+#nota-enviar{
+    background-color: #07649e;
+    padding: 0.6rem;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+}
+
+.nota-item {
+    border: 1px solid #07649e;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #10104c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem;
+    word-wrap: break-word;
+}
+
+.nota-content {
+    flex: 1;
+    max-width: calc(100% - 50px);
+}
+
+.eliminar-button {
+    display: flex;
+    padding: 0.3rem;
+    border: 3px solid #07649e;
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin: 0.1rem;
+}
+
+.copiar-button {
+    display: flex;
+    padding: 0.3rem;
+    border: 3px solid #07649e;
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin: 0.1rem;
+}
+
+ul{
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+}
